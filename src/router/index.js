@@ -5,7 +5,7 @@ const HelloWorld = resolve => require(['@/components/HelloWorld'], resolve)//主
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',//（使用history模式）
+  // mode: 'history',//（使用history模式）
   routes: [
     {
       path: '/',
